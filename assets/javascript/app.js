@@ -8,7 +8,8 @@ var intervalId;
 	 var stopwatch = {
 		time: 30,
 		// function that starts timer
-		start: function() {
+		
+    start: function() {
 		intervalId = setInterval(stopwatch.count, 1000);
 		},
 
@@ -40,6 +41,5 @@ var intervalId;
     return minutes + ":" + seconds;
   }
 };
-
 
 
